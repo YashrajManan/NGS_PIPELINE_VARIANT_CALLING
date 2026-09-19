@@ -1,0 +1,18 @@
+# --- learning / scaffold files (never pushed) ---
+WORKFLOW.md
+INTERVIEW_QA.md
+INTERPRETATION.md
+01_build.ipynb
+01_build.sh
+_gen*.py
+
+# --- generated outputs / data (large, re-derivable) ---
+data/
+ref/
+results/*
+!results/precision_recall.txt
+envs/
+
+# --- environment junk ---
+.ipynb_checkpoints/
+__pycache__/
